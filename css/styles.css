@@ -1103,10 +1103,28 @@ img {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
   color: var(--text-muted);
   font-size: 0.85rem;
+}
+
+.location-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #38bdf8;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: all var(--transition-fast);
+}
+
+.location-link:hover {
+  color: #7dd3fc;
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+  transform: translateY(-1px);
 }
 
 /* ==========================================================================
